@@ -4,25 +4,18 @@ import java.util.Scanner;
 
 public class NumberOccuring {
     public static void main(String[] args) {
-        System.out.print("Enter the number");
-        Scanner inputNumber = new Scanner(System.in);
-        int n = inputNumber.nextInt();
-        System.out.print("Enter the number to be found");
-        Scanner numberFind = new Scanner(System.in);
-        int x = numberFind.nextInt();
-
+        int n = 1234455;
+        int a  = 5;
+        int count = 0;
         while(n > 0){
             int rem = 0;
 
             rem = n % 10;
-            if(n == x){
-                int count = 0;
+            if(n == a){
                 count++;
-
             }
-
-            System.out.print("The number " + n + " occured " + count + "Times");
+                n = n / 10;
         }
-
+        System.out.println(count);
     }
 }
