@@ -1,4 +1,4 @@
-package BasicQuestions;
+package JavaConcepts;
 
 public class BlockScope {
     public static void main(String[] args) {

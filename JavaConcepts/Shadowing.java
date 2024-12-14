@@ -1,4 +1,4 @@
-package BasicQuestions;
+package JavaConcepts;
 //Shadowing is a practice of using two variables with the same name withing the scope that is overlaping;
 public class Shadowing {
     static int x = 100;
