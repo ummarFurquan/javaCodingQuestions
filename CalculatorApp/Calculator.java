@@ -10,12 +10,10 @@ public class Calculator {
         while (true) {
             System.out.println("Enter the operator (+, -, *, /, %) or 'x' to exit:");
             char op = in.next().trim().charAt(0);
-
             if (op == 'x' || op == 'X') {
                 System.out.println("Exiting the calculator. Goodbye!");
                 break;
             }
-
             System.out.println("Enter the two numbers:");
             int a = in.nextInt();
             int b = in.nextInt();
