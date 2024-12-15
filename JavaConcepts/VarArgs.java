@@ -8,6 +8,9 @@ public class VarArgs {
         int response =  sample(1,2,3,4,5,6);
         System.out.print(response);
     }
+    static int sample2(int a, int b, int ...c){ // you can have multiple parameters as well Normal arguments and varible arguments (varsrgs should be at the end)
+        return 0;
+    }
     static int  sample(int ...n){ //can accept any number of arguments and store it like a array of Integers
         System.out.println(Arrays.toString(n));
         int sum = 0;
