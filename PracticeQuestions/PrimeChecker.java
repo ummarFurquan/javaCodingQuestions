@@ -16,7 +16,7 @@ public class PrimeChecker {
         } if(n == 2){
             return true;
         }
-        for(int i = 2; i <= n/2; i++){   /*Better Apporach for(int i = 2; i<=Math.sqrt(n);i++*/
+        for(int i = 2; i <= n/2; i++){   /*Better Approach for(int i = 2; i<=Math.sqrt(n);i++*/
             if(n % 2 == 0){
                 return  false;
             }
