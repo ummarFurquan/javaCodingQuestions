@@ -1,12 +1,11 @@
-package DsaQuestions;
+package BinarySearch;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] OrrArr = {1,2,3,4,5,6,7,8,9,10,22,44,55,90};
-        int target = 5;
+        int[] OrrArr = {1,2,3,4,5,6,7,8,9,10,11,22,44,55,90};
+        int target = 22;
         int res = search(OrrArr, target);
         System.out.print(res);
-
     }
 
     //return the index
@@ -16,9 +15,8 @@ public class BinarySearch {
         int start = 0;
         int end = arr.length;
 
-        while(start < end){
+        while(start <= end){
             int middle = start + (end - start) / 2;
-
 
             if(target < arr[middle]){
                 end = middle - 1; // left shift
