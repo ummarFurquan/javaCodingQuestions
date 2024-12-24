@@ -17,6 +17,15 @@ public class Comparison {
         System.out.println("Original String after modification: " + original);
 
 
+        //Another Example of Immutability
+        String S1 = "Knowledge";
+        String S2 = S1;
+
+        S1 = S1.concat("Base");
+        System.out.println(S1);
+        System.out.println(S2);
+
+
         //Example of String Pool
         String s1 = "Hello";
         String s2 = "Hello";
@@ -35,6 +44,9 @@ public class Comparison {
 
         // Check if s1 and s3 now refer to the same object
         System.out.println("s1 == s3 (after interning): " + (s1 == s3)); // true, both now refer to the same object in the pool
+
+
+
     }
 }
 
