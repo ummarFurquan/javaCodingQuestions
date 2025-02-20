@@ -22,7 +22,7 @@ public class Classes {
 
 
 
-        //This part is the Initalizing
+        //This part is the Initalizing (new Student();)
         //This part happens at the compile Time
         //The new keyword does DMA (Dynamic Memory Allocation) at run time and return a reference variable to it
         //That Particular refernce is Stored in Student() This is also known as Default  Constructor;
