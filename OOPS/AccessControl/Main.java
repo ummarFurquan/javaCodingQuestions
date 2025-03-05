@@ -18,12 +18,12 @@ public class Main {
 
         //Default Modifier ( Not specified)
         //Can be Accssed Inside the Class in which they are created and within Package
-        System.out.println(newObj1.DefaultInt); // 67
+        System.out.println(newObj1.defaultInt); // 67
 
 
 
         //Public Reference Variables
-        System.out.println(newObj1.PublicInt); // 45
+        System.out.println(newObj1.publicInt); // 45
         //
     }
 }
